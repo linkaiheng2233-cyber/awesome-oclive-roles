@@ -67,6 +67,12 @@ Get-FileHash -Algorithm SHA256 .\your_role.ocpak | Select-Object -ExpandProperty
 - `page`：下载页（客户端会打开链接，提示手动下载后“导入压缩包”）
 - `pan`：网盘类（同上，风险提示更强）
 
+### 3.5 推荐的托管方式（按优先级）
+
+1. **GitHub Releases（推荐）**：对外直链稳定，适合 `kind=direct`。  
+2. **对象存储直链（R2/OSS/COS）**：适合国内镜像与加速，同样 `kind=direct`。  
+3. **网盘 / 下载页**：适合国内用户，但通常不是直链，建议 `kind=page/pan` 并在 `note` 写提取码。  
+
 ### 3.4 trust（可选）
 
 用于客户端排序与风险提示：

@@ -1,5 +1,25 @@
 {
   "generatedAt": "2026-04-28T00:00:00Z",
-  "roles": []
+  "roles": [
+    {
+      "type": "role",
+      "id": "mumu",
+      "name": "沐沐",
+      "description": "示例角色包（内置）",
+      "author": "Oclive",
+      "version": "0.2.0",
+      "minRuntimeVersion": "0.2.0",
+      "tags": ["示例"],
+      "downloads": [
+        {
+          "label": "GitHub Release（直链）",
+          "kind": "direct",
+          "url": "https://github.com/linkaiheng2233-cyber/oclivenewnew/releases/download/role-packs-v1/mumu.ocpak",
+          "sha256": "d4abf7a844e1227cf9ab04d9f8172c376c7f4365ddec1611923cde7b856552cd",
+          "trust": "official"
+        }
+      ]
+    }
+  ]
 }
 
